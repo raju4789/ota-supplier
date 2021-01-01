@@ -26,18 +26,12 @@ public class CreateBookingsHandler implements HttpHandler {
 		try {
 			ISupplierService supplierService = new SupplierService();
 			BookingInfo bookingInfo = getRequestObject(httpExchange.getRequestBody());
-			
-			log.info("createBookingsHandler called with request: "+ bookingInfo);
+
+			log.info("createBookingsHandler called with request: " + bookingInfo);
 
 			supplierResponse = supplierService.createBooking(bookingInfo);
-		} /*
-			 * catch (IOException | ConfigurationException | SQLException e) {
-			 * log.error("failed to create booking: "+ e.getMessage());
-			 * 
-			 * supplierResponse = new SupplierResponse();
-			 * supplierResponse.setHttpStatus(HTTPStatus.INTERNAL_SERVER_ERROR); }
-			 */catch (Exception e) {
-			log.error("failed to create booking: "+ e.getMessage());
+		} catch (Exception e) {
+			log.error("failed to create booking: " + e.getMessage());
 
 			supplierResponse = new SupplierResponse();
 			supplierResponse.setHttpStatus(HTTPStatus.INTERNAL_SERVER_ERROR);
@@ -53,11 +47,9 @@ public class CreateBookingsHandler implements HttpHandler {
 			outputStream.flush();
 			outputStream.close();
 		} catch (IOException e) {
-			log.error("failed to send response: "+ e.getMessage());
+			log.error("failed to send response: " + e.getMessage());
 		}
 
-	
-		
 	}
 
 	private BookingInfo getRequestObject(InputStream inputStream) throws IOException {

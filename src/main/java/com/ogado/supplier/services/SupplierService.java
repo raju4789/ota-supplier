@@ -1,6 +1,9 @@
 package com.ogado.supplier.services;
 
+import java.sql.Date;
 import java.sql.SQLException;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.List;
 import java.util.UUID;
 
@@ -29,49 +32,68 @@ public class SupplierService implements ISupplierService {
 
 	@Override
 	public SupplierResponse createBooking(BookingInfo bookingInfo) throws Exception {
-		
+
 		SupplierResponse supplierResponse = new SupplierResponse();
-		
+
 		List<String> errors = APIValidationUtil.validateRequest(bookingInfo);
-		
-		if(errors.size() > 0) {
+
+		if (errors.size() > 0) {
 			supplierResponse.setHttpStatus(HTTPStatus.BAD_REQUEST);
 			supplierResponse.setErrors(errors);
 			log.error("invalid booking request");
-			
+
 			return supplierResponse;
 		}
-		
+
 		String bookingReference = UUID.randomUUID().toString();
 
-		while (supplierDAO.isBookingExist(bookingReference)) {
+		while (supplierDAO.getBookingById(bookingReference) != null) {
 			bookingReference = UUID.randomUUID().toString();
 		}
-		
+
 		bookingInfo.setBookingReference(bookingReference);
 		bookingInfo.setStatus(ApplicationConstants.STATUS_CONFIRMED);
-		
+
 		BookingInfo dbBooking = supplierDAO.saveBooking(bookingInfo);
-		
-		if(dbBooking == null) {
+
+		if (dbBooking == null) {
 			supplierResponse.setHttpStatus(HTTPStatus.INTERNAL_SERVER_ERROR);
-			errors.add("");
+			errors.add("failed to create booking");
 			supplierResponse.setErrors(errors);
 			return supplierResponse;
 
 		}
-		
+
 		supplierResponse.setHttpStatus(HTTPStatus.CREATED);
 		supplierResponse.setBookingInfo(dbBooking);
 		return supplierResponse;
 	}
 
-	
+	@Override
+	public BookingInfo getBookingById(String bookingReference) throws SQLException {
+		return supplierDAO.getBookingById(bookingReference);
+	}
 
 	@Override
-	public List<BookingInfo> filterBookings(String checkInDate, String checkOutDate, String status) {
-		// TODO Auto-generated method stub
-		return null;
+	public void randomlyUpdateBooking() throws SQLException, Exception {
+		List<BookingInfo> confirmedBookings = supplierDAO.filterBookings(Date.valueOf(LocalDate.now()).toString(), ApplicationConstants.STATUS_CONFIRMED, 3);
+		
+		for (BookingInfo bookingInfo : confirmedBookings) {
+			bookingInfo.setStatus(ApplicationConstants.STATUS_CANCELED);
+			bookingInfo.setUpdatedOn(LocalDateTime.now().toString());
+
+			supplierDAO.updateBookingById(bookingInfo);
+		}
+		
+		List<BookingInfo> cancelledBookings = supplierDAO.filterBookings(Date.valueOf(LocalDate.now()).toString(), ApplicationConstants.STATUS_CANCELED, 2);
+		for (BookingInfo bookingInfo : cancelledBookings) {
+			bookingInfo.setStatus(ApplicationConstants.STATUS_CONFIRMED);
+			supplierDAO.updateBookingById(bookingInfo);
+			bookingInfo.setUpdatedOn(LocalDateTime.now().toString());
+
+		}
+
+		
 	}
 
 }

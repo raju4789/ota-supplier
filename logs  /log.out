@@ -1,0 +1,130 @@
+20/12/30 14:51:46 INFO server.ServerConnectionManager: supplier service started running at port : 8082
+20/12/30 14:53:18 INFO handlers.FilterBookingsHandler: /supplier/v1/status/bdf7050f-dc3d-4ced-8d60-5cf9c560460a
+20/12/30 14:53:18 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingId
+20/12/30 14:54:08 INFO server.ServerConnectionManager: supplier service started running at port : 8082
+20/12/30 14:54:13 INFO handlers.FilterBookingsHandler: status
+20/12/30 14:54:13 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingId
+20/12/30 16:18:25 INFO server.ServerConnectionManager: supplier service started running at port : 8082
+20/12/30 16:19:07 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+20/12/31 15:08:13 INFO server.ServerConnectionManager: supplier service started running at port : 8082
+20/12/31 15:14:03 INFO server.ServerConnectionManager: supplier service started running at port : 8082
+20/12/31 15:15:00 INFO handlers.CreateBookingsHandler: createBookingsHandler called with request: BookingInfo [bookingId=2b447ffd-988f-4e54-9449-ac149d2702b8, checkInDate=2021-02-19T15:08:00.630642, checkOutDate=2021-02-20T15:08:00.630642, hotelName=Paasha, noOfGuests=4, status=null, bookingReference=null, createdOn=2020-12-31T15:14:59.721560, updatedOn=2020-12-31T15:14:59.721625]
+20/12/31 15:15:00 INFO dao.SupplierDAO: Succesfully created booking
+20/12/31 15:17:16 INFO handlers.CreateBookingsHandler: createBookingsHandler called with request: BookingInfo [bookingId=c3bb7d08-3855-4d90-918a-9c187d764c25, checkInDate=2021-01-09T15:08:00.630642, checkOutDate=2021-01-20T15:08:00.630642, hotelName=Paasha, noOfGuests=3, status=null, bookingReference=null, createdOn=2020-12-31T15:17:16.376438, updatedOn=2020-12-31T15:17:16.376477]
+20/12/31 15:17:16 INFO dao.SupplierDAO: Succesfully created booking
+20/12/31 15:35:40 INFO handlers.CreateBookingsHandler: createBookingsHandler called with request: BookingInfo [bookingId=806361c1-42b4-4493-90ca-3b7996daa669, checkInDate=2021-03-09T15:08:00.630642, checkOutDate=2021-03-20T15:08:00.630642, hotelName=Paasha, noOfGuests=2, status=null, bookingReference=null, createdOn=2020-12-31T15:35:40.899775, updatedOn=2020-12-31T15:35:40.899840]
+20/12/31 15:35:40 INFO dao.SupplierDAO: Succesfully created booking
+20/12/31 15:41:08 INFO handlers.CreateBookingsHandler: createBookingsHandler called with request: BookingInfo [bookingId=43224ea8-5218-4bc5-801c-0131337c36a5, checkInDate=2021-04-09T15:08:00.630642, checkOutDate=2021-04-20T15:08:00.630642, hotelName=Paasha, noOfGuests=2, status=null, bookingReference=null, createdOn=2020-12-31T15:41:08.625685, updatedOn=2020-12-31T15:41:08.625723]
+20/12/31 15:41:08 INFO dao.SupplierDAO: Succesfully created booking
+20/12/31 15:41:23 INFO handlers.CreateBookingsHandler: createBookingsHandler called with request: BookingInfo [bookingId=ff39b34f-5b70-4f7e-a51f-ef928ffa924d, checkInDate=2021-04-01T15:08:00.630642, checkOutDate=2021-04-05T15:08:00.630642, hotelName=Paasha, noOfGuests=2, status=null, bookingReference=null, createdOn=2020-12-31T15:41:23.119215, updatedOn=2020-12-31T15:41:23.119250]
+20/12/31 15:41:23 INFO dao.SupplierDAO: Succesfully created booking
+20/12/31 16:03:05 INFO handlers.CreateBookingsHandler: createBookingsHandler called with request: BookingInfo [bookingId=e3b9df03-856e-4d14-a1ce-c957a9552bc6, checkInDate=2021-04-02T15:08:00.630642, checkOutDate=2021-04-05T15:08:00.630642, hotelName=Paasha, noOfGuests=1, status=null, bookingReference=null, createdOn=2020-12-31T16:03:05.088241, updatedOn=2020-12-31T16:03:05.088277]
+20/12/31 16:03:05 INFO dao.SupplierDAO: Succesfully created booking
+20/12/31 16:08:56 INFO handlers.CreateBookingsHandler: createBookingsHandler called with request: BookingInfo [bookingId=9de4bc8d-90f1-40d8-94a0-312cb9588817, checkInDate=2021-03-09T15:08:00.630642, checkOutDate=2021-03-15T15:08:00.630642, hotelName=Paasha, noOfGuests=1, status=null, bookingReference=null, createdOn=2020-12-31T16:08:56.690531, updatedOn=2020-12-31T16:08:56.690571]
+20/12/31 16:08:56 INFO dao.SupplierDAO: Succesfully created booking
+20/12/31 16:10:25 INFO handlers.CreateBookingsHandler: createBookingsHandler called with request: BookingInfo [bookingId=0a7fce0e-8ce9-407d-b750-a9e7c27e9cc1, checkInDate=2021-02-09T15:08:00.630642, checkOutDate=2021-02-15T15:08:00.630642, hotelName=Paasha, noOfGuests=1, status=null, bookingReference=null, createdOn=2020-12-31T16:10:25.727030, updatedOn=2020-12-31T16:10:25.727065]
+20/12/31 16:10:25 INFO dao.SupplierDAO: Succesfully created booking
+21/01/01 14:29:28 INFO server.ServerConnectionManager: supplier service started running at port : 8082
+21/01/01 14:29:56 INFO server.ServerConnectionManager: supplier service started running at port : 8082
+21/01/01 14:32:29 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 14:32:29 INFO server.ServerConnectionManager: supplier service started running at port : 8082
+21/01/01 14:32:39 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 14:32:49 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 14:32:59 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 14:33:11 INFO server.ServerConnectionManager: supplier service started running at port : 8082
+21/01/01 14:34:32 INFO server.ServerConnectionManager: supplier service started running at port : 8082
+21/01/01 14:35:35 INFO server.ServerConnectionManager: supplier service started running at port : 8082
+21/01/01 14:38:53 INFO server.ServerConnectionManager: supplier service started running at port : 8082
+21/01/01 14:59:15 INFO server.ServerConnectionManager: supplier service started running at port : 8082
+21/01/01 15:14:24 INFO server.ServerConnectionManager: supplier service started running at port : 8082
+21/01/01 15:15:34 INFO handlers.CreateBookingsHandler: createBookingsHandler called with request: BookingInfo [bookingId=1da439bb-0474-4454-a5e5-3a39fdd293f4, checkInDate=2021-02-09T15:08:00.630642, checkOutDate=2021-02-15T15:08:00.630642, hotelName=Paasha, noOfGuests=1, status=null, bookingReference=null, createdOn=2021-01-01T15:15:33.422621, updatedOn=2021-01-01T15:15:33.422702]
+21/01/01 15:15:34 INFO dao.SupplierDAO: Succesfully created booking
+21/01/01 15:16:30 INFO handlers.CreateBookingsHandler: createBookingsHandler called with request: BookingInfo [bookingId=b7fc53ce-d0c4-44c5-af9e-da526af5d073, checkInDate=2021-03-09T15:08:00.630642, checkOutDate=2021-03-15T15:08:00.630642, hotelName=Paasha, noOfGuests=1, status=null, bookingReference=null, createdOn=2021-01-01T15:16:30.563182, updatedOn=2021-01-01T15:16:30.563304]
+21/01/01 15:16:30 INFO dao.SupplierDAO: Succesfully created booking
+21/01/01 15:16:39 INFO handlers.CreateBookingsHandler: createBookingsHandler called with request: BookingInfo [bookingId=b863b147-ae69-4423-b069-cb70185ec6ec, checkInDate=2021-03-02T15:08:00.630642, checkOutDate=2021-03-05T15:08:00.630642, hotelName=Paasha, noOfGuests=1, status=null, bookingReference=null, createdOn=2021-01-01T15:16:39.831191, updatedOn=2021-01-01T15:16:39.831226]
+21/01/01 15:16:39 INFO dao.SupplierDAO: Succesfully created booking
+21/01/01 15:16:47 INFO handlers.CreateBookingsHandler: createBookingsHandler called with request: BookingInfo [bookingId=0513b264-38ae-4727-bc86-cf5d2e25be88, checkInDate=2021-04-02T15:08:00.630642, checkOutDate=2021-04-05T15:08:00.630642, hotelName=Paasha, noOfGuests=1, status=null, bookingReference=null, createdOn=2021-01-01T15:16:47.164417, updatedOn=2021-01-01T15:16:47.164457]
+21/01/01 15:16:47 INFO dao.SupplierDAO: Succesfully created booking
+21/01/01 15:17:06 INFO handlers.CreateBookingsHandler: createBookingsHandler called with request: BookingInfo [bookingId=a4f39a7a-7bea-4557-a522-c1a6e622efa6, checkInDate=2021-04-01T15:08:00.630642, checkOutDate=2021-04-05T15:08:00.630642, hotelName=Paasha, noOfGuests=2, status=null, bookingReference=null, createdOn=2021-01-01T15:17:06.130976, updatedOn=2021-01-01T15:17:06.131016]
+21/01/01 15:17:06 INFO dao.SupplierDAO: Succesfully created booking
+21/01/01 15:17:25 INFO handlers.CreateBookingsHandler: createBookingsHandler called with request: BookingInfo [bookingId=2f89695b-bd1d-4f05-873c-13684fa22178, checkInDate=2021-04-02T15:08:00.630642, checkOutDate=2021-04-07T15:08:00.630642, hotelName=Paasha, noOfGuests=2, status=null, bookingReference=null, createdOn=2021-01-01T15:17:25.229309, updatedOn=2021-01-01T15:17:25.229351]
+21/01/01 15:17:25 INFO dao.SupplierDAO: Succesfully created booking
+21/01/01 15:17:53 INFO handlers.CreateBookingsHandler: createBookingsHandler called with request: BookingInfo [bookingId=b2396e81-8330-44fe-8ade-271971aa4fbd, checkInDate=2021-04-09T15:08:00.630642, checkOutDate=2021-04-20T15:08:00.630642, hotelName=Paasha, noOfGuests=3, status=null, bookingReference=null, createdOn=2021-01-01T15:17:53.320936, updatedOn=2021-01-01T15:17:53.320970]
+21/01/01 15:17:53 INFO dao.SupplierDAO: Succesfully created booking
+21/01/01 15:18:44 INFO handlers.CreateBookingsHandler: createBookingsHandler called with request: BookingInfo [bookingId=7e1ba615-fca7-473b-825a-77acbea6406f, checkInDate=2021-05-09T15:08:00.630642, checkOutDate=2021-05-20T15:08:00.630642, hotelName=Paasha, noOfGuests=2, status=null, bookingReference=null, createdOn=2021-01-01T15:18:44.198041, updatedOn=2021-01-01T15:18:44.198078]
+21/01/01 15:18:44 INFO dao.SupplierDAO: Succesfully created booking
+21/01/01 15:40:27 INFO server.ServerConnectionManager: supplier service started running at port : 8082
+21/01/01 15:41:24 INFO server.ServerConnectionManager: supplier service started running at port : 8082
+21/01/01 15:42:44 INFO server.ServerConnectionManager: supplier service started running at port : 8082
+21/01/01 15:42:45 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:42:54 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:43:04 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:43:14 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:43:24 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:43:34 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:43:44 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:43:54 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:44:04 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:44:14 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:44:24 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:44:34 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:46:18 INFO server.ServerConnectionManager: supplier service started running at port : 8082
+21/01/01 15:47:02 INFO server.ServerConnectionManager: supplier service started running at port : 8082
+21/01/01 15:47:03 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:47:12 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:47:22 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:47:32 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:47:42 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:47:52 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:48:02 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:48:12 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:48:22 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:48:32 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:48:42 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:48:52 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:49:02 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:49:12 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:49:22 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:49:32 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:49:42 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:49:52 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:50:02 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:50:12 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:50:22 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:50:32 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:50:42 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:50:52 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:51:02 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:51:12 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:51:22 INFO server.ServerConnectionManager: supplier service started running at port : 8082
+21/01/01 15:51:22 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:51:31 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:51:41 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:51:51 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:52:01 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:52:11 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:52:21 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:52:31 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:52:41 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:52:51 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:53:01 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:53:11 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:53:21 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:53:31 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:53:41 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:53:51 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:54:01 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:54:11 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:54:21 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:54:31 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:54:41 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:54:51 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:55:01 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:55:11 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:55:21 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:55:31 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:55:41 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:55:51 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:56:01 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:56:11 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/01 15:56:21 INFO supplier.SupplierApplication: Bookings Updater run
