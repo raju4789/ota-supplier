@@ -83,8 +83,8 @@ public class SupplierDAO implements ISupplierDAO {
 
 			BookingInfo curBooking = new BookingInfo();
 			curBooking.setBookingId(rs.getString("booking_id"));
-			curBooking.setCheckInDate(rs.getTimestamp("check_in_date").toString());
-			curBooking.setCheckOutDate(rs.getTimestamp("check_out_date").toString());
+			curBooking.setCheckInDate(rs.getString("check_in_date").toString());
+			curBooking.setCheckOutDate(rs.getString("check_out_date").toString());
 			curBooking.setHotelName(rs.getString("hotel_name"));
 			curBooking.setNoOfGuests(rs.getInt("no_of_guests"));
 			curBooking.setStatus(rs.getString("status"));
@@ -112,8 +112,8 @@ public class SupplierDAO implements ISupplierDAO {
 
 		if (rs.next()) {
 			BookingInfo curBooking = new BookingInfo();
-			curBooking.setCheckInDate(rs.getTimestamp("check_in_date").toString());
-			curBooking.setCheckOutDate(rs.getTimestamp("check_out_date").toString());
+			curBooking.setCheckInDate(rs.getString("check_in_date").toString());
+			curBooking.setCheckOutDate(rs.getString("check_out_date").toString());
 			curBooking.setStatus(rs.getString("status"));
 			curBooking.setBookingReference(rs.getString("booking_reference"));
 			return curBooking;
@@ -161,7 +161,7 @@ public class SupplierDAO implements ISupplierDAO {
 	private String formSearchQueryByCheckInDate(String checkInDate, String status, int limit) {
 		String searchQuery = supplierQueries.getFilterBookings();
 
-		searchQuery += "DATE('" + checkInDate + "') AND status = '"+status.toUpperCase()+ "' limit "+limit;
+		searchQuery += "DATE('" + checkInDate + "') AND status = '"+status.toUpperCase()+ "' ORDER BY DATE(updated_on) DESC limit "+limit;
 
 		return searchQuery;
 	}

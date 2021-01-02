@@ -4,6 +4,7 @@ import java.sql.Date;
 import java.sql.SQLException;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
@@ -16,7 +17,6 @@ import com.ogado.supplier.dao.SupplierDAO;
 import com.ogado.supplier.exceptions.ConfigurationException;
 import com.ogado.supplier.models.BookingInfo;
 import com.ogado.supplier.models.SupplierResponse;
-import com.ogado.supplier.utils.APIValidationUtil;
 
 public class SupplierService implements ISupplierService {
 
@@ -35,15 +35,7 @@ public class SupplierService implements ISupplierService {
 
 		SupplierResponse supplierResponse = new SupplierResponse();
 
-		List<String> errors = APIValidationUtil.validateRequest(bookingInfo);
-
-		if (errors.size() > 0) {
-			supplierResponse.setHttpStatus(HTTPStatus.BAD_REQUEST);
-			supplierResponse.setErrors(errors);
-			log.error("invalid booking request");
-
-			return supplierResponse;
-		}
+		List<String> errors = new ArrayList<String>();
 
 		String bookingReference = UUID.randomUUID().toString();
 
@@ -57,6 +49,7 @@ public class SupplierService implements ISupplierService {
 		BookingInfo dbBooking = supplierDAO.saveBooking(bookingInfo);
 
 		if (dbBooking == null) {
+			log.error("failed to save booking in supplier db.");
 			supplierResponse.setHttpStatus(HTTPStatus.INTERNAL_SERVER_ERROR);
 			errors.add("failed to create booking");
 			supplierResponse.setErrors(errors);

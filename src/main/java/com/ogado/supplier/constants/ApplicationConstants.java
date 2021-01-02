@@ -12,4 +12,7 @@ public class ApplicationConstants {
 	public static final String STATUS_CONFIRMED  = "CONFIRMED";
 	public static final String STATUS_CANCELED  = "CANCELED";
 	
+	public static final int TIMER_INTERVAL = 10*60*10;
+
+	
 }

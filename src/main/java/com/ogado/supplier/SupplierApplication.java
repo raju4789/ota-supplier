@@ -5,6 +5,7 @@ import java.util.TimerTask;
 
 import org.apache.log4j.Logger;
 
+import com.ogado.supplier.constants.ApplicationConstants;
 import com.ogado.supplier.server.ServerConnectionManager;
 import com.ogado.supplier.services.ISupplierService;
 import com.ogado.supplier.services.SupplierService;
@@ -26,20 +27,19 @@ public class SupplierApplication {
 	public static void bookingsUpdater() {
 		TimerTask task = new TimerTask() {
 			public void run() {
-				ISupplierService supplierService;
 				try {
-					supplierService = new SupplierService();
+					ISupplierService supplierService = new SupplierService();
 					supplierService.randomlyUpdateBooking();
-					log.info("Bookings Updater run");
+					log.info("bookings updater running");
 				} catch (Exception e) {
-					e.printStackTrace();
+					log.error("failed to updated bookings.operations witll be re-tried again.");
 				}
 
 			}
 		};
 		Timer timer = new Timer("Bookings Updater");
 
-		timer.schedule(task, 0, 1000 * 10);
+		timer.schedule(task, 0, ApplicationConstants.TIMER_INTERVAL);
 	}
 
 }
