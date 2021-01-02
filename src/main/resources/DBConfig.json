@@ -1,6 +1,6 @@
 {
 	"driverName": "com.mysql.cj.jdbc.Driver",
-	"url": "jdbc:mysql://localhost:3306/supplier",
+	"url": "jdbc:mysql://supplier-mysql:3306/supplier",
 	"username": "root",
 	"password": "Raju@4789"
 }
