@@ -24,18 +24,17 @@ public class DBConnectionManager {
 		if (dbConnection != null) {
 			return dbConnection;
 		}
-		
+
 		try {
-			DBConfig config = ConfigLoader.loadConfiguration(ApplicationConstants.DB_CONFIG_FILE, DBConfig.class);
+			DBConfig config = ConfigLoader.loadConfiguration(ApplicationConstants.DB_CONFIG.get(System.getProperty("env")), DBConfig.class);
 			Class.forName(config.getDriverName());
 			dbConnection = DriverManager.getConnection(config.getUrl(), config.getUsername(), config.getPassword());
 			return dbConnection;
 		} catch (SQLException | ClassNotFoundException | ConfigurationException e) {
-			log.error("Failed to connect to db : "+ e.getMessage());
+			log.error("failed to connect to db : " + e.getMessage());
 			return null;
-		} 
+		}
 
-		
 	}
 
 }

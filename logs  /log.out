@@ -2300,3 +2300,296 @@
 21/01/02 12:06:45 INFO supplier.SupplierApplication: Bookings Updater run
 21/01/02 12:06:55 INFO supplier.SupplierApplication: Bookings Updater run
 21/01/02 12:07:05 INFO supplier.SupplierApplication: Bookings Updater run
+21/01/03 10:40:36 INFO server.ServerConnectionManager: supplier service started running at port : 8082
+21/01/03 10:40:36 ERROR db.DBConnectionManager: Failed to connect to db : Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+21/01/03 10:40:36 ERROR supplier.SupplierApplication: failed to updated bookings.operations witll be re-tried again.
+21/01/03 10:40:51 INFO server.ServerConnectionManager: supplier service started running at port : 8082
+21/01/03 10:40:51 ERROR db.DBConnectionManager: Failed to connect to db : Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+21/01/03 10:40:51 ERROR supplier.SupplierApplication: failed to updated bookings.operations witll be re-tried again.
+21/01/03 10:40:56 ERROR db.DBConnectionManager: Failed to connect to db : Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+21/01/03 10:40:56 ERROR supplier.SupplierApplication: failed to updated bookings.operations witll be re-tried again.
+21/01/03 10:41:02 ERROR db.DBConnectionManager: Failed to connect to db : Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+21/01/03 10:41:02 ERROR supplier.SupplierApplication: failed to updated bookings.operations witll be re-tried again.
+21/01/03 10:41:08 ERROR db.DBConnectionManager: Failed to connect to db : Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+21/01/03 10:41:08 ERROR supplier.SupplierApplication: failed to updated bookings.operations witll be re-tried again.
+21/01/03 10:41:14 ERROR db.DBConnectionManager: Failed to connect to db : Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+21/01/03 10:41:14 ERROR supplier.SupplierApplication: failed to updated bookings.operations witll be re-tried again.
+21/01/03 10:41:20 ERROR db.DBConnectionManager: Failed to connect to db : Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+21/01/03 10:41:20 ERROR supplier.SupplierApplication: failed to updated bookings.operations witll be re-tried again.
+21/01/03 10:41:26 ERROR db.DBConnectionManager: Failed to connect to db : Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+21/01/03 10:41:26 ERROR supplier.SupplierApplication: failed to updated bookings.operations witll be re-tried again.
+21/01/03 10:41:32 ERROR db.DBConnectionManager: Failed to connect to db : Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+21/01/03 10:41:32 ERROR supplier.SupplierApplication: failed to updated bookings.operations witll be re-tried again.
+21/01/03 10:41:38 ERROR db.DBConnectionManager: Failed to connect to db : Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+21/01/03 10:41:38 ERROR supplier.SupplierApplication: failed to updated bookings.operations witll be re-tried again.
+21/01/03 10:41:44 ERROR db.DBConnectionManager: Failed to connect to db : Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+21/01/03 10:41:44 ERROR supplier.SupplierApplication: failed to updated bookings.operations witll be re-tried again.
+21/01/03 10:41:50 ERROR db.DBConnectionManager: Failed to connect to db : Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+21/01/03 10:41:50 ERROR supplier.SupplierApplication: failed to updated bookings.operations witll be re-tried again.
+21/01/03 10:41:56 ERROR db.DBConnectionManager: Failed to connect to db : Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+21/01/03 10:41:56 ERROR supplier.SupplierApplication: failed to updated bookings.operations witll be re-tried again.
+21/01/03 10:42:02 ERROR db.DBConnectionManager: Failed to connect to db : Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+21/01/03 10:42:02 ERROR supplier.SupplierApplication: failed to updated bookings.operations witll be re-tried again.
+21/01/03 10:42:08 ERROR db.DBConnectionManager: Failed to connect to db : Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+21/01/03 10:42:08 ERROR supplier.SupplierApplication: failed to updated bookings.operations witll be re-tried again.
+21/01/03 10:42:15 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 10:44:07 INFO server.ServerConnectionManager: supplier service started running at port : 8082
+21/01/03 10:44:08 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 10:44:13 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 10:44:18 INFO handlers.CreateBookingsHandler: createBookingsHandler called with request: BookingInfo [bookingId=71bd52dc-31da-4647-8883-11f717d09a7a, checkInDate=2021-01-10 15:08:01, checkOutDate=2021-01-12 15:08:01, hotelName=Paasha, noOfGuests=4, status=null, bookingReference=null, createdOn=2021-01-03T10:44:18.511026, updatedOn=2021-01-03T10:44:18.511128]
+21/01/03 10:44:18 INFO dao.SupplierDAO: Succesfully created booking
+21/01/03 10:44:19 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 10:44:25 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 10:44:31 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 10:44:37 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 10:44:43 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 10:44:49 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 10:44:55 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 10:45:01 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 10:45:07 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 10:45:13 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 10:45:19 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 10:45:25 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 10:45:31 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 10:45:36 INFO handlers.CreateBookingsHandler: createBookingsHandler called with request: BookingInfo [bookingId=984e47bf-49c3-4285-9bb4-642f9a90e6f4, checkInDate=2021-03-10 15:08:01, checkOutDate=2021-03-12 15:08:01, hotelName=Paasha, noOfGuests=4, status=null, bookingReference=null, createdOn=2021-01-03T10:45:36.584812, updatedOn=2021-01-03T10:45:36.584910]
+21/01/03 10:45:36 INFO dao.SupplierDAO: Succesfully created booking
+21/01/03 10:45:37 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 10:45:43 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 10:45:49 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 10:45:55 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 10:46:01 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 10:46:07 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 10:46:13 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 10:46:19 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 10:46:25 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 10:46:31 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 10:46:37 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 10:46:43 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 10:46:49 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 10:46:55 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 10:47:01 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 10:47:07 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 10:47:13 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 10:47:19 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:31:33 INFO server.ServerConnectionManager: supplier service started running at port : 8082
+21/01/03 11:31:34 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:31:39 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:31:45 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:31:51 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:31:52 INFO handlers.CreateBookingsHandler: createBookingsHandler called with request: BookingInfo [bookingId=e1e050c4-be96-4c58-bc78-480449f0247e, checkInDate=2021-05-10 15:08:01, checkOutDate=2021-05-12 15:08:01, hotelName=Paasha, noOfGuests=4, status=null, bookingReference=null, createdOn=2021-01-03T11:31:52.058045, updatedOn=2021-01-03T11:31:52.058124]
+21/01/03 11:31:52 INFO dao.SupplierDAO: Succesfully created booking
+21/01/03 11:31:57 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:32:03 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:32:09 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:32:15 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:32:21 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:32:27 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:32:33 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:32:39 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:32:45 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:32:51 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:32:57 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:33:03 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:33:09 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:33:15 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:33:21 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:33:27 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:33:33 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:33:39 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:33:45 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:33:51 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:33:57 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:34:03 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:34:09 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:34:15 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:34:21 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:34:27 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:34:33 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:34:39 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:34:45 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:34:51 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:34:53 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:34:57 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:35:03 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:35:09 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:35:15 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:35:21 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:35:27 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:35:33 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:35:39 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:35:45 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:35:51 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:35:57 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:36:03 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:36:09 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:36:15 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:36:21 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:36:27 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:36:33 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:36:39 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:36:45 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:36:51 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:36:57 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:37:03 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:37:09 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:37:15 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:37:21 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:37:27 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:37:33 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:37:39 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:37:45 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:37:51 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:37:57 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:38:03 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:38:09 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:38:15 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:38:21 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:38:27 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:38:33 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:38:39 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:38:45 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:38:51 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:38:57 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:39:03 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:39:09 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:39:15 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:39:21 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:39:27 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:39:33 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:39:39 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:39:45 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:39:51 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:39:57 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:40:03 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:40:09 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:40:15 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:40:21 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:40:27 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:40:33 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:40:39 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:40:45 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:40:51 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:40:57 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:41:03 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:41:09 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:41:15 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:41:21 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:41:27 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:41:33 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:41:39 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:41:45 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:41:51 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:41:57 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:42:03 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:42:09 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:42:15 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:42:21 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:42:27 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:42:33 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:42:39 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:42:45 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:42:51 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:42:57 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:43:03 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:43:09 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:43:12 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:12 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:12 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:12 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:12 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:12 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:12 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:12 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:12 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:12 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:12 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:15 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:43:17 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:17 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:17 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:17 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:17 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:17 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:17 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:17 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:17 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:17 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:17 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:21 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:43:23 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:23 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:23 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:23 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:23 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:23 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:23 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:23 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:23 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:23 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:23 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:27 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:43:29 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:29 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:29 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:29 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:29 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:29 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:29 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:29 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:29 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:29 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:29 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:33 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:43:35 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:35 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:35 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:35 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:35 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:35 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:35 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:35 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:35 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:35 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:35 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:39 INFO supplier.SupplierApplication: bookings updater running
+21/01/03 11:43:41 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:41 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:41 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:41 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:41 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:41 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:41 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:41 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:41 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:41 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
+21/01/03 11:43:41 INFO handlers.FilterBookingsHandler: successfully fetched bookings by bookingReference
