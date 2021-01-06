@@ -54,7 +54,7 @@ public class FilterBookingsHandler implements HttpHandler {
 			String bookingsStr = JsonMapper.stringifyPretty(bookingResponse);
 			OutputStream outputStream = httpExchange.getResponseBody();
 			httpExchange.getResponseHeaders().set("Content-Type", "appication/json");
-			httpExchange.sendResponseHeaders(HTTPStatus.OK, bookingsStr.length());
+			httpExchange.sendResponseHeaders(bookingResponse.getHttpStatus(), bookingsStr.length());
 			outputStream.write(bookingsStr.getBytes());
 
 			outputStream.flush();

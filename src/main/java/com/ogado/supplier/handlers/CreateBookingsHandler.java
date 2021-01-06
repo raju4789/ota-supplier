@@ -41,7 +41,7 @@ public class CreateBookingsHandler implements HttpHandler {
 			String supplierResponseStr = JsonMapper.stringifyPretty(supplierResponse);
 			OutputStream outputStream = httpExchange.getResponseBody();
 			httpExchange.getResponseHeaders().set("Content-Type", "appication/json");
-			httpExchange.sendResponseHeaders(HTTPStatus.CREATED, supplierResponseStr.length());
+			httpExchange.sendResponseHeaders(supplierResponse.getHttpStatus(), supplierResponseStr.length());
 			outputStream.write(supplierResponseStr.getBytes());
 
 			outputStream.flush();
